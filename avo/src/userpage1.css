@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+}
+.header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #CA965C; /* Set your desired background color */
+  
+  
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Set your desired logo width */
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: #F4DFBA;/* Set the color for the logo text */
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black; /* Set the default color for the links */
+  margin-right: 15px;
+  transition: color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.nav-link:hover {
+  color: white; /* Set the color for links on hover */
+}
+/* Google maps css
+/* GoogleMapComponent.css */
+.fiche{
+  margin-left: 900px;
+  margin-bottom: 10px;
+}
+.circle-container {
+  width: 250px; /* Ajuster selon les besoins */
+  height: 250px; /* Ajuster selon les besoins */
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle-image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajuster pour remplir entièrement le cercle */
+}
+
+.star-rating {
+  position: absolute;
+  bottom: 8px; /* Ajuster selon les besoins */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px; /* Ajuster selon les besoins */
+  color: gold;
+}
+.profil {
+  position: absolute;
+  top: 150px;
+  right: 990px;
+  display: flex;
+  flex-direction: column; /* Display items vertically */
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 20px; 
+}
+
+.profil h5 {
+  margin-top: 10px; /* Adjust the top margin for the h4 element */
+}
+
+.map-carte{
+
+  top:100px;
+}
+.star-profil {
+  position: absolute;
+  top: 460px;
+  right: 1105px;
+  margin-left: 110px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-and-appointments {
+  display: flex;
+  flex-direction: row; /* Met les éléments sur la même ligne */
+}
+
+.map-carte {
+  flex: 1; /* Fait prendre à l'iFrame le maximum d'espace disponible */
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligne les rendez-vous au centre */
+}
+
+.rectangle {
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.rectangle p {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start of the flex container */
+  flex-direction: column;
+  margin-right: 400px;
+  
+}
+.compte{
+  display: flex;
+  flex-direction: row;
+}
+
+.content img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: #CA965C; /* Green color, you can change it to your preferred color */
+  color: black; /* Text color */
+  padding: 10px 20px; /* Padding for better appearance */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+button:hover {
+  background-color: white; /* Darker shade of green on hover */
+}
